@@ -13,5 +13,8 @@ Rails.application.routes.draw do
     collection do 
       post :search
     end
+    member do
+      post :toggle_favorite
+    end
   end
 end
