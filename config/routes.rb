@@ -8,4 +8,10 @@ Rails.application.routes.draw do
     sessions: 'users/sessions',
     registrations: 'users/registrations'
   }
+
+  resources :favorite_restaurants, only: [] do
+    collection do 
+      post :search
+    end
+  end
 end
