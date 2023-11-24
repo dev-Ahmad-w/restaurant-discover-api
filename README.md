@@ -16,8 +16,8 @@ This Restaurant Discovery API is designed to simplify the process of finding gre
 ​
 ## Project Setup
 ### Dependencies
-- Ruby 2.6.3
-- Rails 6.0.0
+- Ruby 3.1.2
+- Rails 7.0.8
 - PostgreSQL
 
 
@@ -26,12 +26,12 @@ This Restaurant Discovery API is designed to simplify the process of finding gre
 - Docker Compose (for local development)
 ​
 ### Building and Running with Docker
-1. **Clone the Repository:** `git clone [repository-url]`
-2. **Navigate to the Project Directory:** `cd [project-directory]`
+1. **Clone the Repository:** `git clone https://github.com/usmanasif/restaurant-discovery-api.git`
+2. **Navigate to the Project Directory:** `cd restaurant-discovery-api`
 3. **Build the Docker Image:** `docker-compose up --build`
-4. **Run the Docker Container:** `docker run -p 8000:8000 restaurant-discovery-api`
-5. **Access the API:** The API will be available at `http://localhost:3000`.
-​
+4. **Access the API:** Postman collection is added in the /postman/resturant-discovery.postman_collection.json
+5. **Postman:** Import the Postman collection (resturant-discovery.postman_collection.json) into Postman.
+
 ### Using the API
 - **Authenticate**
 - Use the provided credentials or register a new user.
